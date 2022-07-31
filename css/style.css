@@ -364,6 +364,7 @@ body {
   display: flex;
   gap: 10px;
   justify-content: center;
+  padding-bottom: 30px;
 }
 .team-soc-link {
   display: flex;
@@ -541,10 +542,13 @@ body {
 
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .item-border {
   display: block;
   padding: 20px 24px;
@@ -567,9 +571,9 @@ body {
   color: var(--primary-color-text);
 }
 
-.portfolio-title:hover,
+/* .portfolio-title:hover,
 .portfolio-title:focus,
 .portfolio-text:hover,
 .portfolio-text:focus {
   color: var(--accent-color);
-}
+} */
